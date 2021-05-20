@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>Bikcraft</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <div class="logo">
+                <a href="">
+                    <img src="img/bikcraft.svg" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#">sobre</a></li>
+                        <li><a href="#">produtos</a></li>
+                        <li><a href="#">portifólio</a></li>
+                        <li><a href="#">contato</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner_section">
+        <div class="introducao">
+            <h1>bicicletas <span>feitas a mão</span></h1>
+            <blockquote class="btn">
+                <p class="efeito">“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
+                <cite>WILLIAM MORRIS</cite>
+            </blockquote>
+            <a class="btn-button" href="">orçamento</a>
+        </div>
+    </section>
+    <section class="produtos">
+        <div>
+            <h1 class="efeito_preto">produtos</h1>
+            <ul class="produtos_lista">
+                <li class="produtos_lista1">
+                    <div class="produtos_icone">
+                        <a href="#"><img class="img_bike" src="img/passeio.svg" alt=""></a>
+                    </div>
+                    <div class="bik_fundo">
+                        <h3 class="bik_card efeito_bike">passeio</h3>
+                        <p>Muito melhor do que passear pela orla a vidros fechados.</p>
+                    </div>
+                </li>
+                <li class="produtos_lista1">
+                    <div class="produtos_icone">
+                        <a href="#"><img class="img_bike" src="img/esporte.svg" alt=""></a>
+                    </div>
+                    <div class="bik_fundo">
+                        <h3 class="bik_card efeito_bike">esporte</h3>
+                        <p>Muito melhor do que passear pela orla a vidros fechados.</p>
+                    </div>
+                </li>
+                <li class="produtos_lista1">
+                    <div class="produtos_icone">
+                        <a href="#"><img class="img_bike" src="img/retro.svg" alt=""></a>
+                    </div>
+                    <div class="bik_fundo">
+                        <h3 class="bik_card efeito_bike">retrô</h3>
+                        <p>Muito melhor do que passear pela orla a vidros fechados.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="call-center">
+            <p>clique aqui e veja os detalhes dos produtos</p>
+            <a class="btn-button-preto" href="">produtos</a>
+        </div>
+    </section>
+
+    <section class="portifolio">
+        <div class="container">
+            <h1 class="efeito-portif">portifolio</h1>
+            <ul class="img-portif">
+                <li>
+                    <img src="img/passeio.jpg" alt="">
+                </li>
+                <li>
+                    <img src="img/retro.jpg" alt="">
+                </li>
+                <li>
+                    <img class="esporte" src="img/esporte.jpg" alt="">
+                </li>
+            </ul>
+
+            <p>conheça mais o nosso portfólio</p>
+            <a class="btn-button" href="">portifólio</a>
+        </div>
+    </section>
+    <section class="produtos">
+        <div class="container">
+            <h1 class="efeito_preto">qualidade</h1>
+            <div class="container-linhas">
+                <img src="img/bikcraft-qualidade.svg" alt="">
+            </div>
+            <ul class="lista-qualidade">
+                <li class="texto-qualidade">
+                    <h3 class="efeito_preto">durabilidade</h3>
+                    <p>Sólida a como pedra, leve como o vento e resistente como o diamante, são nossos diferenciais.</p>
+                </li>
+                <li class="texto-qualidade">
+                    <h3 class="efeito_preto">design</h3>
+                    <p>Feitas sob medida para o melhor conforto e eficiência. Adaptamos a sua Bikcraft para o seu corpo.
+                    </p>
+                </li>
+                <li class="texto-qualidade">
+                    <h3 class="efeito_preto">sustentabilidade</h3>
+                    <p>Além de ajudar a cuidar do meio ambiente, tirando carros da rua, toda a produção é sustentável.
+                    </p>
+                </li>
+            </ul>
+            <div class="btn-qualidade">
+                <p>conheça mais a nossa história</p>
+                <a class="btn-button-preto" href="#">sobre</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quebra">
+        <div class="container">
+            <blockquote class="btn btn-quebra">
+                <p class="efeito">“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os
+                    detalhes da vida cotidiana.”</p>
+                <cite>WILLIAM MORRIS</cite>
+            </blockquote>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="caixa">
+            <div class="nossa-historia">
+                <h3 class="footer-forma">nossa história</h3>
+                <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados
+                    por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na
+                    garagem da nossa casa.</p>
+            </div>
+            <div class="contato">
+                <h3 class="footer-forma">contato</h3>
+                <ul>
+                    <li>- +55 21 9999-9999</li>
+                    <li>- contato@bikcraft.com</li>
+                    <li>- Rua Ali Perto - Botafogo</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-forma">redes socias</h3>
+                <ul class="socias">
+                    <li>
+                        <a href="">
+                            <img src="img/facebook.svg" alt="">
+                        </a></li>
+                    <li>
+                        <a href="">
+                            <img src="img/instagram.svg" alt="">
+                        </a></li>
+                    <li>
+                        <a href="">
+                            <img src="img/twitter.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <div class="caixa">
+            <p>Bikcraft 2020 - Alguns direitos reservados.</p>
+        </div>
+    </div>
+</body>
+
+</html>
