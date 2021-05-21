@@ -97,7 +97,7 @@ nav a {
 .mm_line {
     height: 3px;
     background: #ffffff;
-     /*menu mobile */
+     /*botão menu-mobile */
 }                      
 
 .banner_section{    
@@ -264,7 +264,7 @@ cite {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 960px;
+    max-width: 960px;
 }
 .img-portif {
     display: flex;
@@ -282,10 +282,8 @@ cite {
     color: #FFF;
     margin: 30px auto 10px auto;
 }
-.container-linhas {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+.container-linhas img {
+    margin: 0 auto;
 }
 .lista-qualidade {
     display: flex;
@@ -440,11 +438,11 @@ footer .contato ul li {
         font-size: 36px;
         max-width: 330px;
         text-align: center;
-        }
-        .container-linhas:after{
-            display: none;
-        }
-        .lista-qualidade {
+    }
+    .container-linhas:after{
+        display: none;
+    }
+    .lista-qualidade {
         margin: 0px;
         flex-wrap: wrap;
     }
@@ -460,8 +458,8 @@ footer .contato ul li {
         margin: 0 auto;
     }
 }
-@media (max-width: 1095px){
-    .esporte{
+@media(max-width: 1080px) {
+    .img-portif .img-esporte {
         max-width: 460px;
     }
 }
